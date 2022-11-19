@@ -15,6 +15,11 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         binding = ActivityMainBinding.inflate(layoutInflater)
         setContentView(binding.root)
+        binding.turnTitleTv.text =if (isXTurn) {
+            "Turn : X player"
+        }else {
+            "Turn : 0  player"
+        }
         setOnClickListeners()
     }
 
