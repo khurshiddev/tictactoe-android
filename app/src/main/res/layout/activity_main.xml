@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@drawable/image2"
     tools:context=".MainActivity">
 
     <TextView
@@ -124,7 +125,7 @@
                 android:layout_weight="1"
                 android:gravity="center_horizontal"
                 android:fontFamily="@font/blaka"
-                android:text="X won"
+                android:text="0 won"
                 android:id="@+id/oWonTv"/>
 
             <TextView android:layout_width="match_parent"
@@ -132,7 +133,7 @@
                 android:gravity="center_horizontal"
                 android:fontFamily="@font/blaka"
                 android:layout_weight="1"
-                android:text="X won"
+                android:text="Draw"
                 android:id="@+id/drawTv"/>
         </TableRow>
         <TableRow
